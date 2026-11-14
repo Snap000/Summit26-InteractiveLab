@@ -1,0 +1,19 @@
+definition_version: 2
+entities:
+  arcade_scores_dashboard:
+    type: streamlit
+    identifier:
+      name: ARCADE_SCORES_DASHBOARD
+      database: ARCADE_DB
+      schema: PUBLIC
+    query_warehouse: SUMMIT_INT_WH
+    runtime_name: SYSTEM$ST_CONTAINER_RUNTIME_PY3_11
+    compute_pool: ARCADE_REPORTING_POOL
+    external_access_integrations:
+      - PYPI_ACCESS_INTEGRATION
+    main_file: streamlit_app.py
+    artifacts:
+      - streamlit_app.py
+      - queries.py
+      - pyproject.toml
+      - .streamlit/config.toml

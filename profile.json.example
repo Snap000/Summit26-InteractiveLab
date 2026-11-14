@@ -1,6 +1,6 @@
 {
     "user":             "ARCADE_STREAMING_USER",
-    "url":              "PASTE_ACCOUNT_URL_FROM_SNOWSIGHT",
+    "url":              "https://sfsehol-swt_nyc_2026_hol_2_streaming_in_babuyd.snowflakecomputing.com",
     "private_key_file": "/full/path/to/rsa_key.p8",
     "role":             "ARCADE_STREAMING_ROLE"
 }
